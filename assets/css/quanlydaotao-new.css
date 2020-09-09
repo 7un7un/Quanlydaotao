@@ -1,10 +1,8 @@
-.tieude-noidung{max-width:100%; max-height:auto; display:flex}
-.tieude-item2{flex-basis:20%; margin-left:180px}
-.tieude-item2 img{max-width:95%; max-height:95%}
-.tieude-item1{flex-basis:60%}
-.tieude-item1 h5{text-align:center; margin-top:25px; font-family:Roboto Condensed; 
-	font-size:22px; color:#006838; border-right:2px solid gray}
-/*==================================================*/
+.tieude-logo{max-width:100%; max-height:auto; display:flex; margin-bottom:15px}
+.tieude-noidung{max-width:100%; max-height:auto; display:flex;margin-bottom:50px}
+.tieude-noidung h5{font-family:Roboto Condensed; font-size:22px; color:#006838; display:block; margin:0px auto 0px auto}
+.tieude-logo img{max-width:15%; max-height:15%; display:block; margin:0px auto 0px auto}
+/*====================================================================================================*/
 .block-nd{max-width:100%; max-height:auto; display:flex; margin-top:30px}
 .item-nd{width:100%; height:auto; background:#00aa8c}
 .item-num h4{width:100%; height:50px; font-size:20px; color:#006838; text-align:center; background:white; cursor:default}
@@ -17,8 +15,8 @@
 @media screen and (min-width:600px){
 	.tieude-noidung:before, .block-nd:before, .tieude-noidung:after, .block-nd:after{display:table; clear:both}
 	.tieude-noidung, .block-nd{max-width:100%}
-	.tieude-item1 h5{font-size:12px}
-	.tieude-item2 img{margin-top:15px}
+	.tieude-noidung h5{font-size:12px}
+	.tieude-logo img{margin-top:15px}
 	.item-num h4{font-size:14px; height:40px}
 	.item-icon img{width:70%; height:70%; margin:-36px 0 0 14px}
 	.item-text h5{font-size:10px}
@@ -26,8 +24,8 @@
 /*Responsiv Desktop*/
 @media screen and (min-width:1024px){
 	.tieude-noidung:before, .block-nd:before, .tieude-noidung:after, .block-nd:after{display:table; clear:both}
-	.tieude-item1 h5{font-size:22px}
-	.tieude-item2 img{margin-top:0px}
+	.tieude-noidung h5{font-size:22px}
+	.tieude-logo img{margin-top:0px}
 	.item-num h4{font-size:20px; height:50px}
 	.item-icon img{width:70%; height:70%; margin:-36px 0 0 25px}
 	.item-text h5{font-size:14px}
