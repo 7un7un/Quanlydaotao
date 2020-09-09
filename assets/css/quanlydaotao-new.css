@@ -4,42 +4,31 @@
 .tieude-item2{flex-basis:60%}
 .tieude-item2 h5{text-align:center; margin-top:25px; font-family:Roboto Condensed; 
 	font-size:22px; color:#006838; border-right:2px solid gray; border-left:2px solid gray}
+
 .block-nd{max-width:100%; max-height:auto; display:flex; margin-top:30px}
 .item-nd{width:100%; height:auto; background:#00aa8c}
-.item-num h4{width:100%; height:55px; color:#006838; text-align:center; background:white}
-.item-icon img{width:100%; height:100%; margin:-46px auto 0px auto}
-.item-minicon img{width:60%; height:60%; position:relative; margin:-130px 0px 0px 20px}
-
-.item-text{border-right:2px solid white; width:100%; height:90px; margin:-10px 0px 0px 0px}
+.item-num h4{width:100%; height:50px; font-size:20px; color:#006838; text-align:center; background:white; cursor:default}
+.item-icon img{width:70%; height:70%; margin:-36px 0 0 25px; cursor:pointer}
+.item-text{border-right:2px solid gray; width:100%; height:90px; margin:10px 0 0 0px}
 .text1{border:none}
 .item-text h5{font-family:segoe ui; font-size:14px; text-align:center; cursor:default}
 /*Responsiv Mobile*/
 @media screen and (min-width:600px){
 	.tieude-noidung:before, .block-nd:before, .tieude-noidung:after, .block-nd:after{display:table; clear:both}
 	.tieude-noidung, .block-nd{max-width:100%}
-	.item-num h4{width:100%; height:38px; color:#006838; text-align:center; background:white; font-size:90%}
-	.tieude-item1 img, .tieude-item3 img{max-width:95%; max-height:95%; margin-top:15px}
-	.item-icon img{width:100%; height:100%; margin:-32px auto 0px auto}
-	.item-minicon img{width:60%; height:60%; position:relative; margin:-90px 0px 0px 12px}
-	.item-text h5{font-family:segoe ui; font-size:60%; text-align:center; cursor:default}
-	.tieude-item2 h5{text-align:center; margin-top:25px; font-family:Roboto Condensed; 
-	font-size:80%; color:#006838; border-right:2px solid gray; border-left:2px solid gray}
+	.tieude-item2 h5{font-size:12px}
+	.tieude-item1 img, .tieude-item3 img{margin-top:15px}
+	.item-num h4{font-size:14px; height:40px}
+	.item-icon img{width:70%; height:70%; margin:-36px 0 0 14px}
+	.item-text h5{font-size:10px}
 }
 /*Responsiv Desktop*/
 @media screen and (min-width:1024px){
-.tieude-noidung{max-width:100%; max-height:auto; display:flex}
-.tieude-item1, .tieude-item3{flex-basis:20%}
-.tieude-item1 img, .tieude-item3 img{max-width:95%; max-height:95%}
-.tieude-item2{flex-basis:60%}
-.tieude-item2 h5{text-align:center; margin-top:40px; font-family:Roboto Condensed; 
-	font-size:22px; color:#006838; border-right:2px solid gray; border-left:2px solid gray}
-.block-nd{max-width:100%; max-height:auto; display:flex; margin-top:20px}
-.item-nd{width:100%; height:auto; background:#00aa8c}
-.item-num h4{width:100%; height:55px; color:#006838; text-align:center; background:white; font-size:25px}
-.item-icon img{width:100%; height:100%; margin:-46px auto 0px auto}
-.item-minicon img{width:60%; height:60%; position:relative; margin:-130px 0px 0px 20px}
+	.tieude-noidung:before, .block-nd:before, .tieude-noidung:after, .block-nd:after{display:table; clear:both}
+	.tieude-item2 h5{font-size:22px}
 
-.item-text{border-right:2px solid white; width:100%; height:90px; margin:-10px 0px 0px 0px}
-.text1{border:none}
-.item-text h5{font-family:segoe ui; font-size:14px; text-align:center; cursor:default}
+	.tieude-item1 img, .tieude-item3 img{margin-top:0px}
+	.item-num h4{font-size:20px; height:50px}
+	.item-icon img{width:70%; height:70%; margin:-36px 0 0 25px}
+	.item-text h5{font-size:14px}
 }
