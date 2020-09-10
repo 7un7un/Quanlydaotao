@@ -7,10 +7,11 @@
 .item-nd{width:100%; height:auto; background:#00aa8c}
 .item-num h4{width:100%; height:50px; font-size:20px; color:#006838; text-align:center; background:white; cursor:default}
 .item-icon img{width:70%; height:70%; margin:-36px 0 0 25px; cursor:pointer}
+.item-icon img:hover{background: }
 .item-text{border-right:2px solid white; width:100%; height:90px; margin:10px 0 0 0px}
-.text1{border:none}
 .item-text h5{font-family:segoe ui; font-size:14px; text-align:center; cursor:default; color:white;
 	font-weight:lighter; margin-left:5px; margin-right:5px}
+.item-nd_hidden{visibility:hidden}
 /*Responsiv Mobile*/
 @media screen and (min-width:600px){
 	.tieude-noidung:before, .block-nd:before, .tieude-noidung:after, .block-nd:after{display:table; clear:both}
