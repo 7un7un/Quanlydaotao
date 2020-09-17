@@ -1,33 +1,30 @@
-.tieude-logo{max-width:100%; max-height:auto; display:flex; margin-bottom:15px}
-.tieude-noidung{max-width:100%; max-height:auto; display:flex;margin-bottom:50px}
-.tieude-noidung h5{font-family:arial; font-size:22px; color:#006838; display:block; margin:0px auto}
-.tieude-logo img{max-width:15%; max-height:15%; display:block; margin:0px auto}
-/*====================================================================================================*/
-.block-nd{max-width:100%; max-height:auto; display:flex; margin-top:30px}
-.item-nd{width:100%; height:auto; background:#00aa8c}
-.item-num h4{width:100%; height:50px; font-size:20px; color:#006838; text-align:center; background:white; cursor:default}
-.item-icon img{width:70%; height:70%; margin:-36px 0 0 25px; cursor:pointer}
-.item-text{border-right:2px solid white; width:100%; height:90px; margin:10px 0 0 0px}
-.item-text h5{font-family:segoe ui; font-size:14px; text-align:center; color:white;
-	font-weight:lighter; margin-left:5px; margin-right:5px; cursor:pointer}
-.item-nd_hidden{visibility:hidden}
+/*=========================tieude-daotao=========================*/
+.tieude-daotao{max-width:100%; max-height:auto; display:column; text-align:center}
+.tieude-daotao img{width:15%; height:15%}
+.tieude-daotao h5{font-family:'Open Sans',sans-serif; font-size:22px; color:#006838; padding-top:15px}
+/*=========================noidung-daotao=========================*/
+.container-daotao{max-width:100%; max-height:auto; display:column}
+.block-daotao{width:100%; height:auto; margin-top:50px; display:flex; justify-content:space-around; background:pink}
+.item-daotao{width:95%; height:200px; text-align:center; border:1px solid black; border-radius:20px; background:#00aa8c}
+.item-daotao:hover{box-shadow:5px 5px 5px gray; margin-top:-10px; transition: all 0.6s ease}
+.item-num{background:white; width:100%; height:50px; border-top-right-radius:20px; border-top-left-radius:20px; border-bottom:1px solid black}
+.item-num h5{font-family:'Open Sans',sans-serif; font-size:22px; color:#006838; padding-top:4px}
+.item-icon{width:100%; height:auto}
+.item-icon img{width:75%; height:75%; margin-top:-21px}
+.item-text{width:100%; height:auto; padding-top:5px}
+.item-text h5{font-family:'Open Sans',sans-serif; font-size:13px; color:white; font-weight:lighter; margin:0px 6px}
 .item-text h5:hover{text-decoration:underline}
-/*Responsiv Mobile*/
-@media screen and (min-width:600px){
-	.tieude-noidung:before, .block-nd:before, .tieude-noidung:after, .block-nd:after{display:table; clear:both}
-	.tieude-noidung, .block-nd{max-width:100%}
-	.tieude-noidung h5{font-size:12px}
-	.tieude-logo img{margin-top:15px}
-	.item-num h4{font-size:14px; height:40px}
-	.item-icon img{width:70%; height:70%; margin:-36px 0 0 14px}
-	.item-text h5{font-size:10px}
+.item-daotao-hidden{visibility:hidden}
+/*=========================responsive=========================*/
+@media only screen and (max-width:46.1875em){
+/*=====tieude=====*/
+.tieude-daotao img{visibility:hidden}
 }
-/*Responsiv Desktop*/
-@media screen and (min-width:1024px){
-	.tieude-noidung:before, .block-nd:before, .tieude-noidung:after, .block-nd:after{display:table; clear:both}
-	.tieude-noidung h5{font-size:22px}
-	.tieude-logo img{margin-top:0px}
-	.item-num h4{font-size:20px; height:50px}
-	.item-icon img{width:70%; height:70%; margin:-36px 0 0 25px}
-	.item-text h5{font-size:14px}
+@media only screen and (min-width:46.25em) and (max-width:63.9375em){
+/*=====tieude=====*/
+.tieude-daotao img{width:20%; height:20%}
+/*=====noidung=====*/
+.item-num h5{padding-top:6px}
+.item-icon img{margin-top:-14px}
+.block-daotao{max-width:50%; background:red}
 }
